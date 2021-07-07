@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="icon" href="assets/image/portfolio.png" type="image/gif" sizes="16x16">
+<title>Shyqul Reyad</title>
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="slide">
+            <div class="slide-content">
+                <img src="assets/project_image/blog_image (1).jpg" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="assets/project_image/blog_image (2).jpg" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="assets/project_image/blog_image (4).jpg" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="assets/project_image/blog_image (5).jpg" alt="">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <img src="assets/project_image/blog_image_main.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items:1,
+                loop:true,
+                nav:true,
+                dots:true,
+                autoplay:true,
+                autoplaySpeed:1000,
+                smartSpeed:1500,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
+</body>
+
+</html>
