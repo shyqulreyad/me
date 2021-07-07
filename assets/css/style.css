@@ -60,24 +60,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-@font-face
-{
-  font-family: 'Spider';
-  font-weight: normal;
-  font-style: normal;
-  
-  src: url('./Spider.otf') format('truetype');
-}
-/* spider is used in Headings */
-.Spider
-{
-    font-family: 'Spider' !important;
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 
 body {
   font-family: Source Sans Pro;
